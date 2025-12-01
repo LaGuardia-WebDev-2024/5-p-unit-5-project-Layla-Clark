@@ -44,6 +44,14 @@ color: transparent;
 background-clip: text;
 -webkit-background-clip: clip;
 }
+body, html {
+  animation: colorChange 3s infinite
+  alternate;
+}
+@keyframes colorChange {
+0%{background-color: aliceblue;}
+100%{background-color: black;}
+}
   </style>
 </head>
 <body>
